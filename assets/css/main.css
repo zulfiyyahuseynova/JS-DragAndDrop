@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.box{
+    width: 500px;
+    height: 350px;
+    border: 2px solid #000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.fru-veg{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.fruits{
+    width: 350px;
+    height: 300px;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.vegetables{
+    width: 350px;
+    height: 300px;
+    border: 2px solid green;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+span{
+    font-size: 18px;
+}
